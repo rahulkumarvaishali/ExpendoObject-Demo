@@ -30,6 +30,23 @@ namespace ExpendoObject_Demo
 
             var name = person.GetFullName();
             Console.WriteLine(name);
+
+
+            //var expando = new ExpandoObject() as IDictionary<string, object>;
+
+
+            //foreach (DataColumn col in self.Columns)
+            //{
+            //    if (row != null)
+            //    {
+            //        expando.Add(col.ColumnName, row[col.ColumnName]);
+            //    }
+            //    else
+            //    {
+            //        expando.Add(col.ColumnName, "");
+            //    }
+            //}
+            //return expando;
         }
     }
 }
